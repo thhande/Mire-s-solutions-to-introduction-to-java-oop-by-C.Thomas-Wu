@@ -13,5 +13,6 @@ public class Ex24 {
     double totalPrice = unitWeight * numberOfUnits * 5.99;
     double totalPriceWithTax = totalPrice + totalPrice * 0.0725;
     System.out.println(("total price with tax is : " + totalPriceWithTax));// print the result
+    scanner.close();
   }
 }

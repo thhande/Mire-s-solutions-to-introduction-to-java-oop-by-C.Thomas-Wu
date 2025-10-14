@@ -1,6 +1,4 @@
-package chap4;
-
-import chap4.Ex16.CoffeeBag;
+package chap4.Ex16;
 
 public class Ex16Main {
   public static void main(String[] args) {
@@ -10,7 +8,6 @@ public class Ex16Main {
 
     // Create CoffeeBag object
     CoffeeBag order = new CoffeeBag(bagWeight, numberOfBags);
-
     // Display results
     System.out.println("Number of bags sold: " + order.getNumberOfBags());
     System.out.println("Weight per bag: " + order.getBagWeight() + " lb");

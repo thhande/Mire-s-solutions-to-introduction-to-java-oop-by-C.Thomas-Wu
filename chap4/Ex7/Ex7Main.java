@@ -1,8 +1,6 @@
-package chap4;
+package chap4.Ex7;
 
 import java.util.Scanner;
-
-import chap4.Ex7.Temperature;
 
 public class Ex7Main {
   public static void main(String[] args) {

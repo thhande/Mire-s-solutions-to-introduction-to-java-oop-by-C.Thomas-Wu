@@ -12,5 +12,6 @@ public class Ex8 {
     Temperature temperature = new Temperature();
     temperature.setCelsius(tempe);// set the celcius to temperature so it can convert to fah
     System.out.println("the farheit val of your temp is : " + temperature.toFahrenheit());
+    scanner.close();
   }
 }

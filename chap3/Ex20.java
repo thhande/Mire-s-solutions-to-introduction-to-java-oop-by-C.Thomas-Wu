@@ -19,6 +19,7 @@ public class Ex20 {
     cal = new GregorianCalendar(year, month, day);
     SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
     System.out.println("Day of Week: " + sdf.format(cal.getTime()));
+    scanner.close();
   }
 }
 

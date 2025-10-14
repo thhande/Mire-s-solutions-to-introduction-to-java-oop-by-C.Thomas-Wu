@@ -1,8 +1,6 @@
-package chap4;
+package chap4.Ex13;
 
 import java.util.Scanner;
-
-import chap4.Ex13.Seat;
 
 public class Ex13Main {
   public static void main(String[] args) {
