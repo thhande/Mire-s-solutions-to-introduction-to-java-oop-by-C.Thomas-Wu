@@ -1,7 +1,6 @@
-package chap4;
+package chap4.Ex12;
 
 import java.util.Scanner;
-import chap4.Ex12.*;
 
 public class Ex12Main {
   public static void main(String[] args) {
@@ -15,5 +14,6 @@ public class Ex12Main {
     if (recommendedWeight <= 0)
       System.out.println("somehow i think you should die");
     System.out.println("your recommended weight " + height.recommendedWeight(age));// return the reW
+    scanner.close();
   }
 }

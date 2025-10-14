@@ -20,5 +20,6 @@ public class Ex22 {
     double F = G * (m1 * m2) / Math.pow(d, 2);
 
     System.out.printf("The gravitational force is %.3E dynes\n", F);
+    input.close();
   }
 }

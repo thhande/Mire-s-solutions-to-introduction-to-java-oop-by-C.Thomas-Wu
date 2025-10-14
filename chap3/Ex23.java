@@ -20,5 +20,6 @@ public class Ex23 {
     double R = K * C * Math.pow(T, 2) / Math.pow(V, 3);
 
     System.out.printf("Program readability (R) = %.2f mocha\n", R);
+    input.close();
   }
 }

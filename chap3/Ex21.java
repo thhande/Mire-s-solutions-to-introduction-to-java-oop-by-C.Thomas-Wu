@@ -20,5 +20,6 @@ public class Ex21 {
     int result = (int) Math.round(fibN);
 
     System.out.println("The " + N + "th Fibonacci number is " + result);
+    input.close();
   }
 }
