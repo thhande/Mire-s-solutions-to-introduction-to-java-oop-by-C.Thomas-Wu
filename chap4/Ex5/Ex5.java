@@ -1,4 +1,4 @@
-package chap4;
+package chap4.Ex5;
 
 import java.util.Random;
 
